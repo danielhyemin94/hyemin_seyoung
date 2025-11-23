@@ -306,9 +306,10 @@ header.top-decoration::before {
 }
 
 .photo-two::before {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('assets/photo-two.jpeg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('assets/gallery/gallery-31.JPEG');
   filter: brightness(1.9);
-  background-position: 70% center;
+  background-size: 195%;
+  background-position: center;
   margin-bottom: 7rem;
 }
 
